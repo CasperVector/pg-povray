@@ -1,0 +1,14 @@
+#include "common.inc"
+
+union {
+	object { Floor }
+	object { Refaxis }
+
+	object { Symcentre }
+	object { Mirror }
+	object { TwofoldAxis }
+
+	MirrorSet(RotateSet(TwofoldCoil, z, 2), z)
+	ClockRotate(2)
+}
+
