@@ -375,7 +375,7 @@ global_settings {
 }
 
 camera {
-	location <2.34, 1.98, 1.53>
+	location <2.3, 1.6, 1.7>
 	sky z
 	up y
 	right -image_width / image_height * x
