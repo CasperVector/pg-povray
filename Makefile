@@ -20,11 +20,11 @@ png: $(PG_NAMES:%=%.png)
 gif: $(PG_NAMES:%=%.gif)
 $(PG_NAMES): %: %.png %.gif
 
-%.png: %.pov
+%.png: %.pov common.inc
 	povray $(PNG_ARGS) +I$< +O$@
 
-%.gif: %.pov
-	-mkdir $*-tmp/
+%.gif: %.pov common.inc
+	mkdir -p $*-tmp/
 	povray $(GIF_BASE_ARGS) +KFF$(call GET_KFF,$<) +I$< +O$*-tmp/$*-tmp.png
 	convert $(CONVERT_ARGS) $*-tmp/$*-tmp*.png $*.gif
 	rm -rf $*-tmp/
