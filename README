@@ -1,0 +1,41 @@
+PG-POVRay
+=========
+
+This project is an attempt to intuitively represent the 32
+crystallographic pint groups, based on Prof. Marc de Graef's work [1].
+
+The homepage of this project is now at [2].
+
+[1]: <http://neon.mems.cmu.edu/degraef/pg/index.html>
+[2]: <http://code.google.com/p/caspervector/>
+
+
+PNG & GIF
+=========
+
+The published archive contains 1200x1200 PNG images and 480x480 GIF
+animations corresponding to the 32 crystallographic point grops.
+
+The PNG and GIF files are in the `png' and `gif' subdirectories of the
+archive, respectively.
+
+
+Source
+======
+
+The source code of this project is in the `src' subdirectory of the
+published archive or the development repository [3].
+
+To build the PNG and GIF files, run `make' in the `src' subdirectory.
+
+[3]: <http://code.google.com/p/caspervector/source/browse/?repo=pg-povray>
+
+
+License
+=======
+
+Copyright (c) 1998, Marc de Graef
+Copyright (c) 2012, Casper Ti. Vector
+
+See the file `COPYING' for the license terms of this project.
+
