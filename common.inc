@@ -355,12 +355,12 @@ global_settings {
 
 #declare TetraCoil = object {
 	Coil
-	translate <0.72, 0.48, 0.64>
+	translate <0.7, 0.3, 0.6>
 }
 
 #declare HexCoil = object {
 	Coil
-	translate <0.6, -0.25, 0.45>
+	translate <0.6, -0.1, 0.5>
 }
 
 #declare CubicCoil = object {
