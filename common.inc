@@ -1,8 +1,8 @@
 // vim:ft=pov
 
-// Set to `false' for faster rendering.
-// It is HIGHLY RECOMMENDED to disable MIRROR_REFLECTION when testing.
-#declare MIRROR_REFLECTION = true;
+// Makes rendering *EXTREMELY SLOW*, and is thus disabled for now.
+#declare MIRROR_REFLECTION = false;
+// Set to `false' for even faster rendering.
 #declare MULTIPLE_LIGHT_SOURCES = true;
 
 #include "transforms.inc"
