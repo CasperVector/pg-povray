@@ -9,6 +9,8 @@ union {
 	AltRotateSet2(XYTwofoldAxis, XTwofoldAxis, z, 4)
 
 	RotateSet(RotateSet(TetraCoil, x, 2), z, 4)
+
+	// KFF_DIV = 4
 	ClockRotate(4)
 }
 

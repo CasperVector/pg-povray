@@ -7,6 +7,8 @@ union {
 	object { SixfoldAxis }
 
 	RotateSet(HexCoil, z, 6)
+
+	// KFF_DIV = 6
 	ClockRotate(6)
 }
 

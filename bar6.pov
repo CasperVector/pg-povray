@@ -10,6 +10,8 @@ union {
 	object { ThreefoldAxis }
 
 	RotinvSet(HexCoil, z, 6)
+
+	// KFF_DIV = 3
 	ClockRotate(3)
 }
 

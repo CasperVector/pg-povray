@@ -13,6 +13,8 @@ union {
 	AltRotateSet2(XYTwofoldAxis, XTwofoldAxis, z, 6)
 
 	RotateSet(MirrorSet(MirrorSet(HexCoil, x), z), z, 6)
+
+	// KFF_DIV = 6
 	ClockRotate(6)
 }
 

@@ -9,6 +9,8 @@ union{
 	object { YRefaxis }
 
 	object { SimpleCoil }
+
+	// KFF_DIV = 2
 	ClockRotate(1)
 }
 

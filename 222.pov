@@ -13,6 +13,8 @@ union{
 	object { YTwofoldAxis }
 
 	RotateSet(RotateSet(TetraCoil, z, 2), x, 2)
+
+	// KFF_DIV = 2
 	ClockRotate(2)
 }
 

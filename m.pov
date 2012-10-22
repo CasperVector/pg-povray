@@ -6,6 +6,8 @@ union {
 	object { Mirror }
 
 	MirrorSet(SimpleCoil, z)
+
+	// KFF_DIV = 2
 	ClockRotate(1)
 }
 

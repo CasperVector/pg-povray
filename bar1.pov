@@ -11,6 +11,8 @@ union {
 	object { Symcentre }
 
 	InverseSet(SimpleCoil)
+
+	// KFF_DIV = 2
 	ClockRotate(1)
 }
 

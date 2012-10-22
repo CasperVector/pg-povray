@@ -10,6 +10,8 @@ union {
 	object { TwofoldAxis }
 
 	MirrorSet(RotateSet(SimpleCoil, z, 2), z)
+
+	// KFF_DIV = 2
 	ClockRotate(2)
 }
 

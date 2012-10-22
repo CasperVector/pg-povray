@@ -18,6 +18,8 @@ union {
 	}
 
 	RotinvSet(MirrorSet(TetraCoil, <1, 1, 0>), z, 4)
+
+	// KFF_DIV = 2
 	ClockRotate(2)
 }
 

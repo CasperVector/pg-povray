@@ -7,6 +7,8 @@ union {
 	object { TwofoldAxis }
 
 	RotateSet(SimpleCoil, z, 2)
+
+	// KFF_DIV = 2
 	ClockRotate(2)
 }
 

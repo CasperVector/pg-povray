@@ -9,6 +9,8 @@ union {
 	object { TwofoldAxis }
 
 	RotinvSet(TetraCoil, z, 4)
+
+	// KFF_DIV = 2
 	ClockRotate(2)
 }
 

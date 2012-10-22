@@ -12,6 +12,8 @@ union {
 	AltRotateSet2(XYTwofoldAxis, XTwofoldAxis, z, 4)
 
 	RotateSet(MirrorSet(MirrorSet(TetraCoil, x), z), z, 4)
+
+	// KFF_DIV = 4
 	ClockRotate(4)
 }
 

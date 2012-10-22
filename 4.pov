@@ -7,6 +7,8 @@ union {
 	object { FourfoldAxis }
 
 	RotateSet(TetraCoil, z, 4)
+
+	// KFF_DIV = 4
 	ClockRotate(4)
 }
 

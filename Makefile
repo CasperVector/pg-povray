@@ -1,12 +1,14 @@
 PNG_RES = 1200
 GIF_RES = 480
+GIF_KFF_BASE = 72
 
 PNG_ARGS = -D +A +Q9 +W$(PNG_RES) +H$(PNG_RES)
 GIF_BASE_ARGS = -D +A -J +Q9 +W$(GIF_RES) +H$(GIF_RES) +KC
 CONVERT_ARGS = -loop 0 -delay 10
 
+KFF_DIV_REGEX = '(?<=KFF_DIV = )[0-9]+'
 GET_KFF = $(shell \
-	echo '72 / $(shell grep -oP '(?<=ClockRotate\()[12346](?=\))' $(1))' | \
+	echo '$(GIF_KFF_BASE) / $(shell grep -oP $(KFF_DIV_REGEX) $1)' | \
 	bc)
 
 PG_NAMES = \

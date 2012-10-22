@@ -17,6 +17,8 @@ union {
 	RotateSet(TThreefoldAxis1, z, 4)
 
 	MirrorSet(MirrorSet(MirrorSet(RotateSet(CubicCoil, x + y + z, 3), z), x), y)
+
+	// KFF_DIV = 2
 	ClockRotate(2)
 }
 

@@ -14,6 +14,8 @@ union {
 	AltRotateSet(TThreefoldAxis1, TThreefoldAxis2, z, 4)
 
 	RotateSet(RotateSet(RotateSet(CubicCoil, x + y + z, 3), z, 2), x, 2)
+
+	// KFF_DIV = 2
 	ClockRotate(2)
 }
 

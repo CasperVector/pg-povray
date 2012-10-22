@@ -9,6 +9,8 @@ union {
 	RotateSet2(XMirror, z, 3)
 
 	RotateSet(MirrorSet(HexCoil, x), z, 3)
+
+	// KFF_DIV = 3
 	ClockRotate(3)
 }
 
