@@ -46,11 +46,11 @@ dist:
 	cp *.png $(PROJECT)/png/
 	cp *.gif $(PROJECT)/gif/
 	cp $(DOC) $(PROJECT)/
-	zip -rmT $(PROJECT)-$(VERSION).zip $(PROJECT)/
+	zip -rmT ../$(PROJECT)-$(VERSION).zip $(PROJECT)/
 
 clean:
 	rm -rf *.pov-state *-tmp/ pg-povray/
 
 distclean: clean
-	rm -f *.png *.gif $(PROJECT)-$(VERSION).zip
+	rm -f *.png *.gif
 
