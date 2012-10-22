@@ -7,7 +7,7 @@ crystallographic pint groups, based on Prof. Marc de Graef's work [1].
 The homepage of this project is now at [2].
 
 [1]: <http://neon.mems.cmu.edu/degraef/pg/index.html>
-[2]: <http://code.google.com/p/caspervector/>
+[2]: <https://code.google.com/p/caspervector/>
 
 
 PNG & GIF
@@ -28,7 +28,7 @@ published archive or the development repository [3].
 
 To build the PNG and GIF files, run `make' in the `src' subdirectory.
 
-[3]: <http://code.google.com/p/caspervector/source/browse/?repo=pg-povray>
+[3]: <https://code.google.com/p/caspervector/source/browse/?repo=pg-povray>
 
 
 License
