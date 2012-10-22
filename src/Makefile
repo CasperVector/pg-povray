@@ -49,8 +49,8 @@ dist:
 	zip -rmT $(PROJECT)-$(VERSION).zip $(PROJECT)/
 
 clean:
-	rm -rf *.pov-state *-tmp/
+	rm -rf *.pov-state *-tmp/ pg-povray/
 
 distclean: clean
-	rm -f *.png *.gif
+	rm -f *.png *.gif $(PROJECT)-$(VERSION).zip
 
