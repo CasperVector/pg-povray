@@ -1,3 +1,9 @@
+PROJECT = pg-povray
+VERSION = 0.1
+
+SRC = *.pov common.inc Makefile
+DOC = ../README ../COPYING
+
 PNG_RES = 1200
 GIF_RES = 480
 GIF_KFF_BASE = 72
@@ -33,6 +39,14 @@ $(PG_NAMES): %: %.png %.gif
 	povray $(GIF_BASE_ARGS) +KFF$(call GET_KFF,$<) +I$< +O$*-tmp/$*-tmp.png
 	convert $(CONVERT_ARGS) $*-tmp/$*-tmp*.png $*.gif
 	rm -rf $*-tmp/
+
+dist:
+	mkdir -p $(PROJECT)/{src,png,gif}/
+	cp $(SRC) $(PROJECT)/src/
+	cp *.png $(PROJECT)/png/
+	cp *.gif $(PROJECT)/gif/
+	cp $(DOC) $(PROJECT)/
+	zip -rmT $(PROJECT)-$(VERSION).zip $(PROJECT)/
 
 clean:
 	rm -rf *.pov-state *-tmp/
