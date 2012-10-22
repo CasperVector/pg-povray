@@ -37,7 +37,7 @@ $(PG_NAMES): %: %.png %.gif
 %.gif: %.pov common.inc
 	mkdir -p $*-tmp/
 	povray $(GIF_BASE_ARGS) +KFF$(call GET_KFF,$<) +I$< +O$*-tmp/$*-tmp.png
-	convert $(CONVERT_ARGS) $*-tmp/$*-tmp*.png $*.gif
+	convert $(CONVERT_ARGS) $*-tmp/$*-tmp*.png $@
 	rm -rf $*-tmp/
 
 dist:
