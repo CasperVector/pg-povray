@@ -1,5 +1,8 @@
-PNG_ARGS = -D +A +Q9 +W1200 +H1200
-GIF_BASE_ARGS = -D +A -J +Q9 +W480 +H480 +KC
+PNG_RES = 1200
+GIF_RES = 480
+
+PNG_ARGS = -D +A +Q9 +W$(PNG_RES) +H$(PNG_RES)
+GIF_BASE_ARGS = -D +A -J +Q9 +W$(GIF_RES) +H$(GIF_RES) +KC
 CONVERT_ARGS = -loop 0 -delay 10
 
 GET_KFF = $(shell \
