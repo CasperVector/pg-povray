@@ -3,7 +3,7 @@ GIF_RES = 480
 GIF_KFF_BASE = 72
 
 PNG_ARGS = -D +A +Q9 +W$(PNG_RES) +H$(PNG_RES)
-GIF_BASE_ARGS = -D +A -J +Q9 +W$(GIF_RES) +H$(GIF_RES) +KC
+GIF_BASE_ARGS = -D +C +A -J +Q9 +W$(GIF_RES) +H$(GIF_RES) +KC
 CONVERT_ARGS = -loop 0 -delay 10
 
 KFF_DIV_REGEX = '(?<=KFF_DIV = )[0-9]+'
