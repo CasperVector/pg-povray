@@ -14,7 +14,7 @@ union {
 	object { Mirror }
 	RotateSet2(XMirror, z, 2)
 
-	MirrorSet(MirrorSet(MirrorSet(FourfoldCoil, z), x), y)
+	MirrorSet(MirrorSet(MirrorSet(TetraCoil, z), x), y)
 	ClockRotate(2)
 }
 

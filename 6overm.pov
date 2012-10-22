@@ -8,7 +8,7 @@ union {
 	object { HexMirror }
 	object { SixfoldAxis }
 
-	MirrorSet(RotateSet(ThreefoldCoil, z, 6), z)
+	MirrorSet(RotateSet(HexCoil, z, 6), z)
 	ClockRotate(6)
 }
 

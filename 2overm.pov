@@ -8,7 +8,7 @@ union {
 	object { Mirror }
 	object { TwofoldAxis }
 
-	MirrorSet(RotateSet(TwofoldCoil, z, 2), z)
+	MirrorSet(RotateSet(SimpleCoil, z, 2), z)
 	ClockRotate(2)
 }
 

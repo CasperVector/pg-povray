@@ -5,7 +5,7 @@ union {
 	object { Refaxis }
 	object { TwofoldAxis }
 
-	RotateSet(TwofoldCoil, z, 2)
+	RotateSet(SimpleCoil, z, 2)
 	ClockRotate(2)
 }
 

@@ -11,7 +11,7 @@ union{
 	object { XTwofoldAxis }
 	object { YTwofoldAxis }
 
-	RotateSet(RotateSet(FourfoldCoil, z, 2), x, 2)
+	RotateSet(RotateSet(TetraCoil, z, 2), x, 2)
 	ClockRotate(2)
 }
 

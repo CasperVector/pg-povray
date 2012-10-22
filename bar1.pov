@@ -9,7 +9,7 @@ union {
 
 	object { Symcentre }
 
-	InverseSet(OnefoldCoil)
+	InverseSet(SimpleCoil)
 	ClockRotate(1)
 }
 

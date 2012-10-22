@@ -9,7 +9,7 @@ union {
 	RotateSet2(XMirror, z, 3)
 	RotateSet2(XYTwofoldAxis, z, 3)
 
-	RotinvSet(MirrorSet(ThreefoldCoil, x), z, 3)
+	RotinvSet(MirrorSet(HexCoil, x), z, 3)
 	ClockRotate(3)
 }
 

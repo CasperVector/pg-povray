@@ -7,7 +7,7 @@ union{
 	object { XRefaxis }
 	object { YRefaxis }
 
-	object { OnefoldCoil }
+	object { SimpleCoil }
 	ClockRotate(1)
 }
 

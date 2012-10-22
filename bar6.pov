@@ -8,7 +8,7 @@ union {
 	object { SixfoldAxis }
 	object { ThreefoldAxis }
 
-	RotinvSet(ThreefoldCoil, z, 6)
+	RotinvSet(HexCoil, z, 6)
 	ClockRotate(3)
 }
 

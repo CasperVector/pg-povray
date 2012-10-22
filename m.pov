@@ -1,11 +1,10 @@
-#version 3.7;
 #include "common.inc"
 
 union {
 	object { Floor }
 	object { Mirror }
 
-	MirrorSet(OnefoldCoil, z)
+	MirrorSet(SimpleCoil, z)
 	ClockRotate(1)
 }
 

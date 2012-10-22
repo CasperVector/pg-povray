@@ -7,7 +7,7 @@ union {
 	object { FourfoldAxis }
 	object { TwofoldAxis }
 
-	RotinvSet(FourfoldCoil, z, 4)
+	RotinvSet(TetraCoil, z, 4)
 	ClockRotate(2)
 }
 

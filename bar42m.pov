@@ -16,7 +16,7 @@ union {
 		rotate 45 * z
 	}
 
-	RotinvSet(MirrorSet(FourfoldCoil, <1, 1, 0>), z, 4)
+	RotinvSet(MirrorSet(TetraCoil, <1, 1, 0>), z, 4)
 	ClockRotate(2)
 }
 

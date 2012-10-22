@@ -7,7 +7,7 @@ union {
 	object { ThreefoldAxis }
 	RotateSet(XYTwofoldAxis2, z, 3)
 
-	RotateSet(RotateSet(ThreefoldCoil, x, 2), z, 3)
+	RotateSet(RotateSet(HexCoil, x, 2), z, 3)
 	ClockRotate(3)
 }
 

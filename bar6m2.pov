@@ -13,7 +13,7 @@ union {
 		rotate 90 * z
 	}
 
-	RotinvSet(MirrorSet(ThreefoldCoil, y), z, 6)
+	RotinvSet(MirrorSet(HexCoil, y), z, 6)
 	ClockRotate(3)
 }
 

@@ -347,26 +347,20 @@ global_settings {
 	}
 }
 
-#declare OnefoldCoil = object {
+#declare SimpleCoil = object {
 	Coil
-	rotate <-30, 30, 0>
-	translate <0.7, 0.6, 0.2>
-}
-
-#declare TwofoldCoil = object {
-	Coil
-	rotate <90, 0, -40>
+	rotate <15, 15, 0>
 	translate <0.4, -0.3, 0.7>
 }
 
-#declare ThreefoldCoil = object {
-	Coil
-	translate <0.6, -0.25, 0.45>
-}
-
-#declare FourfoldCoil = object {
+#declare TetraCoil = object {
 	Coil
 	translate <0.72, 0.48, 0.64>
+}
+
+#declare HexCoil = object {
+	Coil
+	translate <0.6, -0.25, 0.45>
 }
 
 #declare CubicCoil = object {

@@ -5,7 +5,7 @@ union {
 	object { Refaxis }
 	object { ThreefoldAxis }
 
-	RotateSet(ThreefoldCoil, z, 3)
+	RotateSet(HexCoil, z, 3)
 	ClockRotate(3)
 }
 

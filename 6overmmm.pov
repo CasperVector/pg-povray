@@ -11,7 +11,7 @@ union {
 	RotateSet2(XMirror, z, 6)
 	AltRotateSet2(XYTwofoldAxis, XTwofoldAxis, z, 6)
 
-	RotateSet(MirrorSet(MirrorSet(ThreefoldCoil, x), z), z, 6)
+	RotateSet(MirrorSet(MirrorSet(HexCoil, x), z), z, 6)
 	ClockRotate(6)
 }
 
