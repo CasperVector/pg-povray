@@ -11,7 +11,7 @@ union {
 	object { Symcentre }
 	RotateSet(RotateSet2(XMirror, z, 4), x + y + z, 3)
 	RotateSet(FourfoldAxis, x + y + z, 3)
-	AltRotateSet(TThreefoldAxis1, TThreefoldAxis2, z, 4)
+	RotateSet(TThreefoldAxis1, z, 4)
 	RotateSet(OTwofoldAxis, z, 4)
 	object {
 		RotateSet2(XYTwofoldAxis, z, 2)

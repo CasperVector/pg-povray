@@ -14,7 +14,7 @@ union {
 	object { YTwofoldAxis }
 	object { Mirror }
 	RotateSet2(XMirror, z, 2)
-	RotateSet(TThreefoldAxis1, z, 4)
+	AltRotateSet(TThreefoldAxis1, TThreefoldAxis2, z, 4)
 
 	MirrorSet(MirrorSet(MirrorSet(RotateSet(CubicCoil, x + y + z, 3), z), x), y)
 
