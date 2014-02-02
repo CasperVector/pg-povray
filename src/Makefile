@@ -1,5 +1,5 @@
 PROJECT = pg-povray
-VERSION = 0.1.2
+VERSION = 0.1.3
 
 SRC = *.pov common.inc Makefile
 DOC = ../README ../COPYING
