@@ -1,7 +1,7 @@
 // vim:ft=pov
 
-// Makes rendering *EXTREMELY SLOW*, and is thus disabled for now.
-#declare MIRROR_REFLECTION = false;
+// Can make rendering ~20x slower; set to `false' for a speed-up.
+#declare MIRROR_REFLECTION = true;
 // Set to `false' for even faster rendering.
 #declare MULTIPLE_LIGHT_SOURCES = true;
 
