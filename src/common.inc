@@ -156,9 +156,7 @@ global_settings {
 #end
 
 #declare MirrorTexture = texture {
-	pigment {
-		color rgbf<1, 1, 1, 0.9>
-	}
+	pigment { color rgbf<1, 1, 1, 0.9> }
 	finish {
 		ambient 0.1
 		diffuse 0.1
@@ -307,9 +305,7 @@ global_settings {
 
 #declare Refaxis = cylinder {
 	<0, 0, -1.4>, <0, 0, 1.4>, 0.01
-	pigment {
-		color 0.2 * White
-	}
+	pigment { color 0.2 * White }
 }
 
 #declare XRefaxis = object {
@@ -323,10 +319,8 @@ global_settings {
 }
 
 #declare Floor = plane {
-	<0 0 1>, -10
-	pigment {
-		color 0.75 * White
-	}
+	z, -10
+	pigment { color 0.75 * White }
 }
 
 #declare Beed = sphere {
@@ -371,7 +365,7 @@ global_settings {
 camera {
 	location <2.3, 1.5, 1.7>
 	sky z
-	up y
+	up z
 	right -image_width / image_height * x
 	look_at <0, 0, 0>
 }
