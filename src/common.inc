@@ -323,12 +323,12 @@ global_settings {
 	pigment { color 0.75 * White }
 }
 
-#declare Beed = sphere {
+#declare Bead = sphere {
 	<0, 0, 0>, 0.03
 }
 
 #declare Coil = object {
-	Spiral(Beed, 20, 0.03, 360 / 9.5, 0.0125)
+	Spiral(Bead, 20, 0.03, 360 / 9.5, 0.0125)
 	texture {
 		pigment { Blue }
 		finish {
