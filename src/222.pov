@@ -1,7 +1,7 @@
 #version 3.7;
 #include "common.inc"
 
-union{
+union {
 	object { Floor }
 
 	object { Refaxis }
