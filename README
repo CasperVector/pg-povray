@@ -32,8 +32,8 @@ To build the PNG and GIF files, run `make' in the `src' subdirectory.
 License
 =======
 
-Copyright (c) 1998, Marc de Graef
-Copyright (c) 2012, Casper Ti. Vector
+Copyright (c) 1998 Marc de Graef
+Copyright (c) 2012,2014-2015 Casper Ti. Vector
 
 See the file `COPYING' for the license terms of this project.
 
